@@ -10,9 +10,7 @@
 
 @interface UITextField (KVITextFieldGroup)
 
-@property (nonatomic, copy) IBInspectable NSString *kvi_groupIdentifier;
-
-@property (nonatomic) IBInspectable NSInteger kvi_groupPriority;
+@property(nonatomic, strong) IBOutlet UIResponder *kvi_nextResponder;
 
 - (BOOL)kvi_isLastInGroup;
 
