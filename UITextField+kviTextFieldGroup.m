@@ -21,7 +21,7 @@
 
 #pragma mark - Properties(Get)
 
-- (UIResponder *)kvi_nextResponder {
+- (UITextField *)kvi_nextResponder {
     return  objc_getAssociatedObject(self, @selector(kvi_nextResponder));
 }
 

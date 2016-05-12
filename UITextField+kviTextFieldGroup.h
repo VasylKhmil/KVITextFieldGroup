@@ -10,7 +10,7 @@
 
 @interface UITextField (KVITextFieldGroup)
 
-@property(nonatomic, strong) IBOutlet UIResponder *kvi_nextResponder;
+@property(nonatomic, strong) IBOutlet UITextField *kvi_nextResponder;
 
 - (BOOL)kvi_isLastInGroup;
 
